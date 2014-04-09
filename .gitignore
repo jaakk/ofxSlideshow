@@ -1,21 +1,29 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+.svn/
+obj/
+bin/
+build/
+!data/
+ipch/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# mac Finder index files
+.DS_*
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# mac apps
+*.app*
 
-# Executables
-*.exe
-*.out
-*.app
+# xcode user project files
+*.pbxuser
+*.perspectivev3
+xcuserdata
+*.mode1*v3
+
+# codeblocks project files
+*.depend
+*.layout
+*.cbTemp
+
+# visual studio project files
+*.vcxproj.user
+*.suo
+*.sdf
+*.opensdf
